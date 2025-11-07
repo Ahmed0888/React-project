@@ -34,6 +34,7 @@ const AnalyticsFeature = () => {
                 </li>
 
               </ul>
+              <button className='mt-8 px-8 py-3 bg-gray-100 text-gray800 font-semibold rounded-full hover:bg-blue-800 transition-all duration-200 hover:text-white cursor-pointer'>Explore More &rarr;</button>
             </div>
 
         </div>
