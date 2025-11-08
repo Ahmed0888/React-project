@@ -30,16 +30,18 @@ const ReviewCard = ({ image, name }: Props) => {
           </div>
           <h1 className="text-xl font-semibold  mt-8">{name}</h1>
           <p className="mt-2 text-lg text-gray-600 font-medium mb-6 ">
-            Fullstack Web Developer 
+            Fullstack Web Developer
           </p>
         </div>
         {/* Images */}
         <div className="col-span-2 mx-auto order-1 lg:order-2 ">
-            <Image src={image}
+          <Image
+            src={image}
             alt={name}
             width={250}
             height={120}
-            className="rounded-full"/>
+            className="rounded-full"
+          />
         </div>
       </div>
     </div>
