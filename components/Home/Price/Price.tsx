@@ -10,8 +10,10 @@ const Price = () => {
       <div className="w-[90%] md:w-[80%] mt-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Price Cards will go here */}
         <div>
-            <PriceCard />
-            {/* To be continued at 1:53:36 */}
+          <PriceCard price={15} plan="starter" />
+        </div>
+        <div>
+          <PriceCard price={45} plan="Bussiness" />
         </div>
       </div>
     </div>
