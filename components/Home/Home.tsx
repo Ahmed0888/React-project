@@ -5,6 +5,7 @@ import AnalyticsFeature from "./AnalyticsFeature/AnalyticsFeature";
 import Feature from "./Feature/Feature";
 import Review from "./Review/Review";
 import Price from "./Price/Price";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return <div className="overflow-hidden ">
@@ -14,6 +15,7 @@ const Home = () => {
     <Feature/>
     <Review/>
     <Price/>
+    <Footer/>
   </div>;
 };
 
