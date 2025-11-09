@@ -8,8 +8,8 @@ const AnalyticsFeature = () => {
         {/* Define Grid  */}
         <div className='w-[95%] sm:w-[80%] mx-auto items-center  grid grid-cols-1 lg:grid-cols-2 gap-10'>
             {/* Image Content   */}
-            <div>
-                {/* To Be Continueed...  At video 1:15:25 */}
+            <div data-aos='fade-up' data-aos-anchor-placement='top-center' >
+                
                 <Image src="/images/a.jpg" alt="image" width={500} height={500} className='object-contain' />
             </div>
             {/* Text  Content  */}

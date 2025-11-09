@@ -9,10 +9,12 @@ const Price = () => {
       </h2>
       <div className="w-[90%] md:w-[80%] mt-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Price Cards will go here */}
-        <div>
+        <div 
+        data-aos='fade-up' data-aos-anchor-placement='top-center' >
           <PriceCard price={15} plan="starter" />
         </div>
-        <div>
+        <div
+        data-aos='fade-up' data-aos-anchor-placement='top-center' data-aos-delay='100'>
           <PriceCard price={45} plan="Bussiness" />
         </div>
       </div>
