@@ -51,7 +51,7 @@ const Nav = ({openNav}:props) => {
         </div>
         {/* Buttons */}
         <div className="flex items-center space-x-4 ">
-          <button className="md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-blue-700 hover:bg-blue-900 transition-all duration-200 rounded-full cursor-pointer">
+          <button onClick={() => window.dispatchEvent(new Event("openJoinModal"))} className="md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-blue-700 hover:bg-blue-900 transition-all duration-200 rounded-full cursor-pointer">
             Jion now
           </button>
           <HiBars3BottomRight  onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden"></HiBars3BottomRight>
